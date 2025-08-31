@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariel A. Guardario - Resume</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.5s ease;
+        }
+ 
+        /* Responsive styling for the card container */
+        .card-container {
+            width: 90%;
+            max-width: 1000px;
+        }
+ 
+        @media (min-width: 768px) {
+            .card-container {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+ 
+    <!-- All Resume Content in a Single, Scrollable Page -->
+    <div id="full-resume" class="flex flex-col items-center p-8 bg-gray-200 text-black space-y-8">
+       
+        <!-- Name, Picture, and Profile Info Section -->
+        <div class="rounded-3xl p-8 md:p-12 lg:p-16 shadow-2xl w-full max-w-4xl text-center" style="background-color: indianRed;">
+            <!-- Profile Picture -->
+            <div class="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-lg">
+               <img src="profile.jpg" alt="Mariel A. Guardario" class="w-full h-full object-cover">
+            </div>
+           
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-black">Mariel A. Guardario</h1>
+           
+            <!-- Profile Description -->
+            <div class="w-full md:w-1/2 mb-8 md:mb-0 mx-auto">
+                <p class="text-lg text-black">
+To encourage lifelong learning and personal responsibility through curiosity, motivation, and a growth mindset. I am eager to gain new skills and apply them in both academic and real-life experiences. With dedication and integrity, I strive to contribute positively in every environment I join.
+                </p>
+            </div>
+        </div>
+ 
+        <!-- Contact Me Section (Separate Card) -->
+        <div class="rounded-3xl p-8 md:p-10 shadow-2xl flex-1 w-full max-w-4xl text-left" style="background-color: lightcoral;">
+            <h2 class="text-2xl font-bold text-black mb-2">CONTACT ME</h2>
+            <ul class="space-y-2 text-lg text-black">
+                <li class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.5a2 2 0 012 2.5a8.5 8.5 0 0011 11c0 1.5-1 2.5-2.5 2.5-1.5 0-2.5-1-2.5-2.5V14.5a2 2 0 01-2-2.5c0-1.5 1-2.5 2.5-2.5H18m0 0a2.5 2.5 0 00-2.5-2.5h-1a2 2 0 00-2.5 2.5c0 1.5 1 2.5 2.5 2.5h1a2.5 2.5 0 002.5-2.5z" />
+                    </svg>
+                    <span>09630142110</span>
+                </li>
+                <li class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.8 5.2L21 8M3 8l-2 12a2 2 0 002 2h18a2 2 0 002-2l-2-12m-16-2h10a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" />
+                    </svg>
+                    <span>marielguardario5@gmail.com</span>
+                </li>
+                <li class="flex items-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0L6.343 16.657a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span>Brgy. 35 Prk. Malipayon Bacolod City Negros Occidental</span>
+                </li>
+            </ul>
+        </div>
+ 
+        <!-- Education, Skills, and Experience Section -->
+        <div class="card-container flex flex-col gap-8 justify-center items-stretch w-full">
+           
+            <!-- Education Card -->
+            <div class="rounded-3xl p-8 md:p-10 shadow-2xl flex-1 text-left" style="background-color: darksalmon;">
+                <h3 class="text-2xl font-bold text-black mb-4">EDUCATION</h3>
+                <ul class="space-y-4 text-lg text-black">
+                    <li>
+                        <span class="font-semibold">STI WEST NEGROS UNIVERSITY</span>
+                        <p class="text-black">Bachelor of Science in Information Technology</p>
+                        <p class="text-sm text-black">2025-2026</p>
+                    </li>
+                    <li>
+                        <span class="font-semibold">NEGROS OCCIDENTAL HIGH SCHOOL</span>
+                        <p class="text-black">Accountancy Business and Management</p>
+                        <p class="text-sm text-black">2021-2022</p>
+                    </li>
+                    <li>
+                        <span class="font-semibold">ELEMENTARY</span>
+                        <p class="text-black">EDUCATION AND TRAINING CENTER SCHOOL III</p>
+                        <p class="text-sm text-black">2015-2016</p>
+                    </li>
+                </ul>
+            </div>
+ 
+            <!-- Computer Skills & Language Card -->
+            <div class="rounded-3xl p-8 md:p-10 shadow-2xl flex-1 text-left" style="background-color: lightsalmon;">
+                <h3 class="text-2xl font-bold text-black mb-4">COMPUTER SKILLS</h3>
+                <ul class="space-y-2 text-lg text-black mb-6">
+                    <li>Internet Research</li>
+                    <li>Basic Typing</li>
+                    <li>Slide Presentation</li>
+                    <li>Social Media</li>
+                </ul>
+                <h3 class="text-2xl font-bold text-black mb-4">LANGUAGE</h3>
+                <ul class="space-y-2 text-lg text-black">
+                    <li>English</li>
+                    <li>Hiligaynon</li>
+                    <li>Tagalog</li>
+                </ul>
+            </div>
+           
+            <!-- Volunteer Experience Card -->
+            <div class="rounded-3xl p-8 md:p-10 shadow-2xl flex-1 text-left" style="background-color: pink;">
+                <h3 class="text-2xl font-bold text-black mb-4">VOLUNTEER EXPERIENCE</h3>
+                <ul class="space-y-4 text-lg text-black">
+                    <li>
+                        <span class="font-semibold">STI WEST NEGROS UNIVERSITY</span>
+                        <p class="text-black">I participated in the school event as a member of the food committee.</p>
+                    </li>
+                    <li>
+                        <p class="text-black">I participated in a marathon event by assisting at water stations and guiding runners.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
